@@ -1,0 +1,536 @@
+._wrapper_b327o_1 {
+  display: flex;
+  flex-direction: column;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  padding: 40px;
+  width: 370px;
+}
+
+._inputSectionWrapper_b327o_9 {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  min-height: 400px;
+  overflow: scroll;
+}
+
+::-webkit-scrollbar {
+  display: none;
+}
+
+._inputWrapper_b327o_21 {
+  display: flex;
+  gap: 10px;
+}
+
+._inputTitle_b327o_26 {
+  font-size: 12px;
+}
+
+._errorMessage_b327o_30 {
+  font-size: 9.5px;
+  margin-top: 8px;
+  color: var(--color-red);
+}
+
+._titleWrapper_b327o_36 h1 {
+  font-weight: 700;
+  font-size: 18px;
+}
+
+._titleWrapper_b327o_36 p {
+  font-weight: 400;
+  font-size: 9.5px;
+  color: var(--color-gray-20);
+  margin-bottom: 16px;
+}
+._dot_1tqba_1 {
+  width: 4px;
+  height: 4px;
+  border-radius: 100%;
+  background-color: white;
+}
+._card_1cqjg_1 {
+  width: 212px;
+  min-height: 132px;
+  border-radius: 4px;
+  background: var(--color-black);
+  box-shadow: 3px 3px 5px 0px rgba(0, 0, 0, 0.25);
+  display: flex;
+  flex-direction: column;
+  gap: 14px;
+
+  margin: 0px auto;
+}
+
+._bc_1cqjg_14 {
+  background-color: var(--color-bc); /* #f04651 */
+}
+
+._shinhan_1cqjg_18 {
+  background-color: var(--color-shinhan); /* #0046ff */
+}
+
+._kakao_1cqjg_22 {
+  background-color: var(--color-kakao); /* #ffe600 */
+}
+
+._hyundai_1cqjg_26 {
+  background-color: var(--color-hyundai); /* #000000 */
+}
+
+._woori_1cqjg_30 {
+  background-color: var(--color-woori); /* #007bc8 */
+}
+
+._lotte_1cqjg_34 {
+  background-color: var(--color-lotte); /* #ed1c24 */
+}
+
+._hana_1cqjg_38 {
+  background-color: var(--color-hana); /* #009490 */
+}
+
+._kookmin_1cqjg_42 {
+  background-color: var(--color-kookmin); /* #6a6056 */
+}
+
+._numberWrapper_1cqjg_46 {
+  padding: 0 25px 12px 17px;
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+._chipWrapper_1cqjg_52 {
+  display: flex;
+  justify-content: space-between;
+  padding: 8px 12px;
+}
+
+._cardLogo_1cqjg_58 {
+  width: 36px;
+  height: 22px;
+  border-radius: 4px;
+}
+
+._chip_1cqjg_52 {
+  width: 36px;
+  height: 22px;
+  border-radius: 4px;
+  background-color: #ddcd78;
+}
+
+._cardNumberWrapper_1cqjg_71 {
+  display: flex;
+  gap: 10px;
+  align-items: center;
+}
+
+._cardNumber_1cqjg_71 {
+  color: var(--color-white);
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 20px;
+  letter-spacing: 2.24px;
+}
+
+._dotWrapper_1cqjg_85 {
+  display: flex;
+  gap: 4px;
+}
+._inputWrapper_661i3_1 {
+  display: flex;
+  gap: 10px;
+}
+
+._inputSection_661i3_6 {
+  height: 77px;
+}
+._inputWrapper_1nfxl_1 {
+  display: flex;
+  gap: 10px;
+}
+
+._inputTitle_1nfxl_6 {
+  font-size: 12px;
+}
+
+._hidden_1nfxl_10 {
+  visibility: hidden;
+}
+._errorMessage_1nfxl_13 {
+  font-size: 9.5px;
+  margin-top: 8px;
+  color: var(--color-red);
+}
+
+._titleWrapper_1nfxl_19 h1 {
+  font-weight: 700;
+  font-size: 18px;
+}
+
+._titleWrapper_1nfxl_19 p {
+  font-weight: 400;
+  font-size: 9.5px;
+  color: var(--color-gray-20);
+  margin-bottom: 16px;
+}
+._input_dcqa9_1 {
+  width: 100%;
+  border-radius: 2px;
+  padding: 8px;
+  border: 1px solid var(--color-gray-10);
+}
+
+._valid_dcqa9_8 {
+  border: 1px solid var(--color-gray-10);
+}
+
+._inValid_dcqa9_12 {
+  border: 1px solid var(--color-red);
+}
+
+._input_dcqa9_1:focus {
+  border: 1px solid var(--color-black);
+}
+
+._input_dcqa9_1:focus._inValid_dcqa9_12 {
+  border: 1px solid var(--color-red);
+}
+._inputWrapper_661i3_1 {
+  display: flex;
+  gap: 10px;
+}
+
+._inputSection_661i3_6 {
+  height: 77px;
+}
+._wrapper_132ex_1 {
+  position: relative; /* 기준점 필수 */
+}
+
+._selectBox_132ex_5 {
+  width: 100%;
+  border: 1px solid var(--color-gray-10);
+  padding: 8px;
+  border-radius: 4px;
+  text-align: left;
+}
+
+._open_132ex_13 {
+  border: 1px solid var(--color-black);
+}
+
+._selected_132ex_17 {
+  color: var(--color-black);
+}
+
+._unSelected_132ex_21 {
+  color: var(--color-gray-10);
+}
+
+._list_132ex_25 {
+  position: absolute;
+  width: 100%;
+  margin: 4px 0 0;
+  border: 1px solid var(--color-gray-10);
+  border-radius: 4px;
+  background-color: var(--color-white);
+}
+
+._item_132ex_34 {
+  list-style: none;
+  padding: 10px;
+  cursor: pointer;
+}
+._inputWrapper_661i3_1 {
+  display: flex;
+  gap: 10px;
+}
+
+._inputSection_661i3_6 {
+  height: 77px;
+}
+._inputWrapper_1gkzr_1 {
+  display: flex;
+  gap: 10px;
+}
+._button_154lr_1 {
+  background-color: var(--color-black);
+  width: 100%;
+  color: var(--color-white);
+  font-weight: 700;
+  padding: 8px;
+  border-radius: 5px;
+}
+._wrapper_t1wvg_1 {
+  display: flex;
+  flex-direction: column;
+  gap: 25px;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+}
+
+._icon_t1wvg_10 {
+  width: 76px;
+  height: 76px;
+}
+
+._text_t1wvg_15 {
+  font-size: 25px;
+  font-weight: 700;
+  text-align: center;
+}
+._app_tyvxe_1 {
+  height: 700px;
+  display: flex;
+  justify-content: center;
+}
+:root {
+  --color-white: #ffffff;
+
+  --color-black: #000000;
+  --color-gray-10: #acacac;
+  --color-gray-20: #8b95a1;
+  --color-gray-30: #4f4f4f;
+
+  --color-red: #ff3d3d;
+  --color-bc: #f04651; /* BC카드 */
+  --color-shinhan: #0046ff; /* 신한카드 */
+  --color-kakao: #ffe600; /* 카카오뱅크 */
+  --color-hyundai: #000000; /* 현대카드 */
+  --color-woori: #007bc8; /* 우리카드 */
+  --color-lotte: #ed1c24; /* 롯데카드 */
+  --color-hana: #009490; /* 하나카드 */
+  --color-kookmin: #6a6056; /* 국민카드 */
+}
+/* http://meyerweb.com/eric/tools/css/reset/
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+  display: block;
+}
+body {
+  line-height: 1;
+}
+ol,
+ul {
+  list-style: none;
+}
+blockquote,
+q {
+  quotes: none;
+}
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+  content: '';
+  content: none;
+}
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+input {
+  padding: 0;
+}
+input:focus {
+  outline: none;
+}
+button {
+  border: 0;
+  background: transparent;
+}
+/*
+  1. Use a more-intuitive box-sizing model.
+*/
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+/*
+  2. Remove default margin, padding
+*/
+* {
+  margin: 0;
+  padding: 0;
+  font: inherit;
+  color: inherit;
+}
+html,
+body {
+  height: 100%;
+  -ms-overflow-style: none; /* IE and 엣지 */
+  scrollbar-width: none; /* 파이어폭스 */
+}
+/*
+  Typographic tweaks!
+  3. Add accessible line-height
+  4. Improve text rendering
+*/
+body {
+  line-height: 1.5;
+  -webkit-font-smoothing: antialiased;
+}
+/*
+  5. Improve media defaults
+*/
+img,
+picture,
+video,
+canvas,
+svg {
+  display: block;
+  max-width: 100%;
+}
+/*
+  6. Remove built-in form typography styles
+*/
+input,
+button,
+textarea,
+select {
+  font: inherit;
+}
+/*
+  7. Avoid text overflows
+*/
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  overflow-wrap: break-word;
+}
+/*
+  8. list style remove
+*/
+ul,
+li {
+  list-style: none;
+}
+a {
+  color: inherit;
+  text-decoration: none;
+  cursor: pointer;
+}
+button {
+  border: 0;
+  background: transparent;
+  cursor: pointer;
+}
+/*
+  9. Create a root stacking context
+*/
+#root,
+#__next {
+  isolation: isolate;
+}
+* {
+  box-sizing: border-box;
+}
