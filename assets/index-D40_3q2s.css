@@ -138,14 +138,6 @@
   display: flex;
   gap: 4px;
 }
-._inputWrapper_661i3_1 {
-  display: flex;
-  gap: 10px;
-}
-
-._inputSection_661i3_6 {
-  height: 77px;
-}
 ._inputWrapper_1nfxl_1 {
   display: flex;
   gap: 10px;
@@ -197,19 +189,11 @@
 ._input_dcqa9_1:focus._inValid_dcqa9_12 {
   border: 1px solid var(--color-red);
 }
-._inputWrapper_661i3_1 {
-  display: flex;
-  gap: 10px;
+._wrapper_19cmo_1 {
+  position: relative;
 }
 
-._inputSection_661i3_6 {
-  height: 77px;
-}
-._wrapper_132ex_1 {
-  position: relative; /* 기준점 필수 */
-}
-
-._selectBox_132ex_5 {
+._selectBox_19cmo_5 {
   width: 100%;
   border: 1px solid var(--color-gray-10);
   padding: 8px;
@@ -217,19 +201,19 @@
   text-align: left;
 }
 
-._open_132ex_13 {
+._open_19cmo_13 {
   border: 1px solid var(--color-black);
 }
 
-._selected_132ex_17 {
+._selected_19cmo_17 {
   color: var(--color-black);
 }
 
-._unSelected_132ex_21 {
+._unSelected_19cmo_21 {
   color: var(--color-gray-10);
 }
 
-._list_132ex_25 {
+._list_19cmo_25 {
   position: absolute;
   width: 100%;
   margin: 4px 0 0;
@@ -238,18 +222,10 @@
   background-color: var(--color-white);
 }
 
-._item_132ex_34 {
+._item_19cmo_34 {
   list-style: none;
   padding: 10px;
   cursor: pointer;
-}
-._inputWrapper_661i3_1 {
-  display: flex;
-  gap: 10px;
-}
-
-._inputSection_661i3_6 {
-  height: 77px;
 }
 ._inputWrapper_1gkzr_1 {
   display: flex;
